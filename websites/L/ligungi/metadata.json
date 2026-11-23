@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.premid.app/metadata/1.17",
+  "apiVersion": 1,
+  "author": {
+    "name": "davydmaker",
+    "id": "209089631377948673"
+  },
+  "service": "ligungi",
+  "description": {
+    "en": "ligungi is a free and open source site to play Gungi, the strategy board game from HUNTER×HUNTER, with the official 2022 rules: rated games, the computer, puzzles, lessons and studies.",
+    "es": "ligungi es un sitio gratuito y de código abierto para jugar al Gungi, el juego de estrategia de HUNTER×HUNTER, con las reglas oficiales de 2022: partidas rated, el ordenador, puzzles, lecciones y estudios.",
+    "pt": "O ligungi é um site gratuito e de código aberto para jogar Gungi, o jogo de estratégia de HUNTER×HUNTER, com as regras oficiais de 2022: partidas rated, o computador, puzzles, lições e estudos."
+  },
+  "url": "ligungi.org",
+  "regExp": "^https?[:][/][/](www[.])?ligungi[.]org[/]",
+  "version": "1.0.0",
+  "logo": "https://i.imgur.com/ppVv7VX.png",
+  "thumbnail": "https://i.imgur.com/FIwmpb6.png",
+  "color": "#d8443f",
+  "category": "games",
+  "tags": [
+    "games",
+    "gungi",
+    "hunter-x-hunter",
+    "board-game",
+    "strategy"
+  ],
+  "settings": [
+    {
+      "id": "privacyMode",
+      "title": "Privacy Mode",
+      "icon": "fas fa-user-secret",
+      "value": false
+    },
+    {
+      "id": "showButtons",
+      "title": "Show Buttons",
+      "icon": "fas fa-compress-arrows-alt",
+      "value": true
+    }
+  ]
+}
